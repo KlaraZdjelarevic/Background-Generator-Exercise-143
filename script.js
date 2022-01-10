@@ -39,13 +39,3 @@ function RandomHexColGen () {
 }
 
 buttoncall.addEventListener("click", RandomHexColGen);
-
-/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
-https://www.w3schools.com/css/css3_gradients.asp*/
-
-/*  SAME BUT IN HTML FILE WITOUTH calling setGradient in the JavaScript file
-    <input oninput="setGradient()" class="color1" type="color" name="colo1" value="#00ff00">
-    <input oninput="setGradient()"class="color2" type="color" name="color2" value="#ff0000">*/
-
-/*in HTML the oninput can have just ONE Attribute
-vs. in JavaScript we can add a lot more of the functions and Attributes*/
